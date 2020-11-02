@@ -222,9 +222,9 @@
     <Text Include="ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="CaptureManager.dll">
-      <DeploymentContent>true</DeploymentContent>
-    </None>
+    <ProjectReference Include="..\..\..\CaptureManagerSource\CaptureManager\CaptureManager.vcxproj">
+      <Project>{0f194c92-6e0e-4c91-a2d5-c3bbeec0623d}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

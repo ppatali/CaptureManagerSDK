@@ -7,3 +7,4 @@ CaptureManagerLibrary.dll
 Bin/
 Release/
 CaptureManagerSDK*
+*.user

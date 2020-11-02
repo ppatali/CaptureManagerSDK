@@ -244,7 +244,7 @@ namespace CaptureManager
 			{
 				if (lp != NULL)
 				{
-					if (FAILED(lp->QueryInterface(*piid, (void **)&::element)))
+					if (FAILED(lp->QueryInterface(*piid, (void **)&((T*)::element))))
 						::element = NULL;
 				}
 			}
@@ -266,7 +266,7 @@ namespace CaptureManager
 			{
 				if (*this != lp)
 				{
-					if (FAILED(lp->QueryInterface(*piid, (void **)&::element)))
+					if (FAILED(lp->QueryInterface(*piid, (void **)&((T*)::element))))
 						::element = NULL;
 					else
 						return ::element;

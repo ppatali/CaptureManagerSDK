@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CaptureManagerSource", "CaptureManagerSource", "{2ED49416-883D-4D91-BC31-783C302E87F4}"
 EndProject
@@ -1023,7 +1023,6 @@ Global
 		{7ACEA7A9-ADCC-43AF-B2FB-9CAFC5A6CE69}.Release|x64.ActiveCfg = Release|x64
 		{7ACEA7A9-ADCC-43AF-B2FB-9CAFC5A6CE69}.Release|x64.Build.0 = Release|x64
 		{7ACEA7A9-ADCC-43AF-B2FB-9CAFC5A6CE69}.Release|x86.ActiveCfg = Release|Win32
-		{7ACEA7A9-ADCC-43AF-B2FB-9CAFC5A6CE69}.Release|x86.Build.0 = Release|Win32
 		{D6430557-CFA0-4A45-9C4F-369F3DF8665A}.Debug|x64.ActiveCfg = Debug|x64
 		{D6430557-CFA0-4A45-9C4F-369F3DF8665A}.Debug|x64.Build.0 = Debug|x64
 		{D6430557-CFA0-4A45-9C4F-369F3DF8665A}.Debug|x86.ActiveCfg = Debug|Any CPU
